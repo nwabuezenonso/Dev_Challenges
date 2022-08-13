@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+.page404 {
+  color: #333333;
+  max-width: 1200px;
+  font-family: Rubik;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* min-height: 100vh */
+}
+
+.header p{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.content{
+  display: flex;
+}
+
+.content img{
+  margin:5rem 5rem 0 0;  
+  width: 465px;
+  height: 404px;
+}
+
+.content div{
+  margin:5rem 3rem 0 0;  
+  width: 465px;
+  height: 404px;
+}
+
+footer p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 12rem;
+  text-align: center;
+}
