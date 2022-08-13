@@ -45,3 +45,19 @@ footer p{
   margin-top: 12rem;
   text-align: center;
 }
+
+/* Scott Contribution. Scaled the navbar and footer to fit mobile screen */
+@media only screen and (min-width: 300px) and (max-width:499px){
+  .page404{
+    padding-top: 5.8rem;
+  }
+  footer{
+    width: 100%;
+  }
+  footer p{
+    font-size: 15px;
+  }
+  header p{
+    font-size: 15px;
+  }
+}
