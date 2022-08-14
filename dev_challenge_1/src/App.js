@@ -10,14 +10,11 @@ function App() {
       <div className='content'>
         <img src={img} alt='404'/>
         <div className='message'>
-          <h1>Oops! We couldn't find the page.</h1>
-          {/* Pelumi contribution Here */}
+          <h1>Oops! we couldn't find the page.</h1>
           <p>The page you are looking for might be removed or its temporarily unavailable.</p>
-          
             <button className='btn'>
               Back to home
             </button>
-          
         </div>
       </div>
       <footer>
