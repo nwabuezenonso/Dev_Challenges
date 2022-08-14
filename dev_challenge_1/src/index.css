@@ -13,6 +13,7 @@
   /* min-height: 100vh */
 }
 
+
 .header p{
   font-style: normal;
   font-weight: 700;
@@ -37,12 +38,34 @@
   height: 404px;
 }
 
+.message h1{
+  margin-top: 80px;
+  font-weight: 700;
+  color: #000000; 
+}
+
+.message p {
+  color: #414141;
+}
+
+.btn {
+  margin-top: 10px;
+  background: #020202;
+  color: #FFFFFF;
+  padding: 6px 14px;
+}
+.btn:hover {
+  background: #FFFFFF;
+  color: #020202;
+  cursor: pointer;
+  font-weight: 700;
+}
 footer p{
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  margin-top: 12rem;
+  margin-top: 6rem;
   text-align: center;
 }
 
