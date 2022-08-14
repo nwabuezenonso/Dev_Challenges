@@ -28,13 +28,13 @@
 }
 
 .content img{
-  margin:5rem 5rem 0 0;  
+  margin:3rem 5rem 0 0;  
   width: 465px;
   height: 550px;
 }
 
 .content div{
-  margin:5rem 0 0 0;  
+  margin:3rem 0 0 0;  
 }
 
 .message h1{
@@ -60,7 +60,7 @@
   background: #020202;
   color: #FFFFFF;
   font-size: 18px;
-  padding: 1.5rem 3rem;
+  padding: 1rem 2rem;
 }
 .btn:hover {
   background: #FFFFFF;
@@ -73,14 +73,14 @@ footer p{
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   text-align: center;
 }
 
 /* Scott Contribution. Scaled the navbar and footer to fit mobile screen */
 @media only screen and (min-width: 250px) and (max-width:499px){
   .page404{
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
   footer{
     width: 100%;
