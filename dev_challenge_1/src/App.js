@@ -1,5 +1,5 @@
 import React from 'react';
-import  img from './assets/404_image.gif'
+import  img from './assets/404_image.gif';
 
 function App() {
   return (
