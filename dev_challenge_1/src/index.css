@@ -3,7 +3,7 @@
 .page404 {
   color: #333333;
   max-width: 1200px;
-  font-family: Rubik;
+  font-family: 'Rubik';
   margin: 0 auto;
   padding: 1rem 2rem;
 
@@ -12,6 +12,7 @@
   justify-content: space-between;
   /* min-height: 100vh */
 }
+
 
 .header p{
   font-style: normal;
@@ -23,33 +24,79 @@
 
 .content{
   display: flex;
+  flex-direction: row;
 }
 
 .content img{
-  margin:5rem 5rem 0 0;  
+  margin:3rem 5rem 0 0;  
   width: 465px;
-  height: 404px;
+  height: 550px;
 }
 
 .content div{
-  margin:5rem 3rem 0 0;  
-  width: 465px;
-  height: 404px;
+  margin:3rem 0 0 0;  
 }
 
+.message h1{
+  font-family: 'Rubik';
+  margin-top: 80px;
+  font-size: 70px;
+  line-height: 83px;
+  font-weight: 700;
+  color: #000000; 
+}
+
+.message p {
+  color: #414141;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.btn {
+  margin-top: 10px;
+  background: #020202;
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 1rem 2rem;
+}
+.btn:hover {
+  background: #FFFFFF;
+  color: #020202;
+  cursor: pointer;
+  font-weight: 700;
+}
 footer p{
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  margin-top: 12rem;
+  margin-top: 2rem;
   text-align: center;
 }
 
+@media screen and (max-width: 1150px) {
+  .content img{
+    margin:3rem 5rem 0 0;  
+    width: 300px;
+    height: 500px;
+  }
+
+  .message h1{
+    font-size: 50px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #000000; 
+  }
+}
+
+
 /* Scott Contribution. Scaled the navbar and footer to fit mobile screen */
-@media only screen and (min-width: 300px) and (max-width:499px){
+@media screen and (max-width:650px){
   .page404{
-    padding-top: 5.8rem;
+    padding-top: 2rem;
   }
   footer{
     width: 100%;
@@ -60,4 +107,36 @@ footer p{
   header p{
     font-size: 15px;
   }
+
+  .content img{
+    margin: 0;
+    height: 300px;
+    width: 100%;
+  }
+
+  .message{
+    margin:0
+  }
+
+  .message h1{
+    font-weight: 700;
+    margin-top: 1.5rem;
+    text-align: left;
+    font-size: 30px;  
+    line-height: 41px;
+  }
+
+  .message p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .btn{
+    padding: 1rem 2rem;
+  }
+  .content{
+    flex-direction: column;
+  }
+  
 }
